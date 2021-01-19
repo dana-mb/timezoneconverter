@@ -125,7 +125,7 @@
             var pickedTime = DateTime[1];
             var pickedDate = pickedDate.split("-");
             var y = parseInt(pickedDate[0]);
-            var m = parseInt(pickedDate[1]-1); // months count starts with 0
+            var m = parseInt(pickedDate[1]);
             var day = parseInt(pickedDate[2]);
             var pickedTime = pickedTime.split(":");
             var h = parseInt(pickedTime[0]);
@@ -153,7 +153,7 @@
             document.getElementById(id).value = timeString;
             
         });
-
+        
     }
 
 
